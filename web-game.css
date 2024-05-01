@@ -1,0 +1,26 @@
+.guess {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  margin: 5px auto;
+}
+
+.letter {
+  flex: 0 0 50px;
+  height: 50px;
+  border: black 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  margin: 5px;
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: capitalize;
+}
+
+.letter.right {
+  background-color: green;
+}
+
+.letter.wrong {
+  background-color: red;
+}
